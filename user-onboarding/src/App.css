@@ -21,8 +21,9 @@
   color: #09d3ac;
 }
 
+
 .form-card {
-  width: 60%;
+  width: 50%;
   margin: 5% auto;
 }
 
@@ -30,5 +31,14 @@
   margin-bottom: 3%;
 }
 
+.form-check {
+  margin-bottom: 3%;
+}
 
+.btn {
+  margin-bottom: 3%;
+}
 
+.form-header {
+  margin-bottom:5%;
+}

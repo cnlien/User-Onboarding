@@ -6,7 +6,7 @@ const OnboardingForm = () => {
     return (
         <Card className="form-card">
             <CardBody>
-
+                <h1 className="form-header">Sign Up</h1>
                 <Form className="onboarding-form">
                     <Input
                         className="username"
@@ -40,11 +40,11 @@ const OnboardingForm = () => {
                                 name="terms"
                                 id="terms"
                             />
-                                {' '} I've Read and Agree to the Terms of Service
+                                {' '} I have read and agree Terms of Service
                             </Label>
                     </FormGroup>
 
-                    <Button type="submit">Sign Up</Button>
+                    <Button color="primary" size="lg" block type="submit">Sign Up</Button>
                 </Form>
 
             </CardBody>
